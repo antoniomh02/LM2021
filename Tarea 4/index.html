@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Tienda</title>
+            <meta name="description" content="Esta es mi tienda de ropa"/>
+            <meta name="language" content="ES">
+            <meta name="copyright" content="ES">
+            <meta name="keywords" content="ropa"/>
+            <meta name="robots" content="Index, Follow">
+            <meta http-equiv="cache-control" content="no-cache"/>
+            <meta name="generator" content="ES">
+        </head>
+        <body>
+           <h1 style="margin-left: 100px;"><b>Tienda</b></h1>
+                <form action="POST">
+                <table>
+                    <tr>
+                        <td><label for="nombre">Nombre y apellidos</label></td>
+                        <td><input type="text" name="nombre" id="nombre" placeholder="Nombre del usuario" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="años">Edad</label></td>
+                        <td><input type="number" name="numero" id="numero"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Dirección">Direccion</label></td>
+                        <td><input type="url" name="url" id="url"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ciudad">Ciudad</label></td>
+                        <td><select name="Ciudad" id="Ciudad">
+                            <optgroup label="Ciudad">
+                                <option value="1">Sevilla</option>
+                                <option value="2">Badajoz</option>
+                                <option value="3">Granada</option>
+                                <option value="4">Cádiz</option>
+                                <option value="4">Cáceres</option>
+                            </optgroup>
+                        </select>
+                    </tr>
+                    <tr>
+                        <td><label for="telefono">Teléfono</label></td>
+                        <td><input type="tel" name="tele" id="tele" pattern="+[0-9]{2}[0-9]{9}[A-Z]{1}" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="texto">¿Trabajó antes?</label></td>
+                        <td><input type="radio" name="pregunta" id="pregunta" value="S" checked/><span>Si</span>
+                        <td><input type="radio" name="pregunta" id="pregunta" value="N"/><span>No</span></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fecha">Fecha último trabajo</label></td>
+                        <td><input type="date" name="fecha" id="fecha"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="redes">Redes Sociales</label></td>
+                        <td><input type="checkbox" value="1" name="redes" id="name">Sí</td>
+                        <td><input type="checkbox" value="2" name="1redes" id="1name">No</td>
+                    </tr>
+                    <tr>
+                        <td><label for="Descripcion">Descripción del puesto</label></td>
+                        <td><input type="textarea" name="descripcion" id="descripcion" cols="50" row="4"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Correo">Correo</label></td>
+                        <td><input type="email" name="correo" id="correo" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Enviar"></td>
+                    </tr>
+                </table>
+            </form>
+        </body>
+    </html>
