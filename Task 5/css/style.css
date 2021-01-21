@@ -1,15 +1,85 @@
 #head {
     background: lightgreen;
-    height: 250px;
+    height: 140px;
 }
- {
-    width: 50px;
-    height: 50px;
+.cara {
+    padding: 40px;
+    width: 55px;
+    height: 55px;
+    float: left;
+}
+#web {
     float: left;
 }
 h1 {
-    font: bold red;
+    color: darkred;
+    font: 35px verdana;
 }
-#web {
-
+#sub {
+    color: #70D184;
+    font: 10px verdana;
+}
+#menu {
+    background: lightskyblue;
+    padding: 5px 10px;
+}
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 2px;
+}
+.x {
+    background: pink;
+    width: 700px;
+    height: 900px;
+    margin-left: 30px;
+}
+#principal {
+    background: lightyellow;
+    height: 900px;
+}
+#header {
+    background: pink;
+    height: 20px;
+    width: 700px;
+}
+#header li {
+    display: inline-block;
+    list-style: none;
+    padding: 2px;
+}
+#title {
+    color: rgb(61, 134, 125);
+    font: 15px verdana;
+    background: lightpink;
+    height: 50px;
+    width: 700px;
+}
+#middle {
+    height: 250px;
+    width: 700px;
+    background: salmon;
+    border-radius: 10px;
+}
+#footer {
+    color: rgb(235, 109, 182);
+    text-align: justify;
+    width: 700px;
+}
+span {
+    color: blue;
+}
+#right {
+        float: left;
+        width: 220px;
+        margin: 20px 0px;
+        padding: 20px;
+        background: grey
+}
+#follow {
+    height: 15px;
+}
+.logo {
+    width: 20px;
+    height: 20px;
 }
