@@ -1,0 +1,76 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    padding: 20px;
+    color: white;
+    background: black;
+    text-align: left;
+    height: 350px;
+}
+#l1 {
+    font-weight: bold;
+    font-size: 55px;
+    font-style: italic;
+}
+#l2 {
+    color: grey;
+}
+#l3 {
+    font-weight: bold;
+}
+section {
+    display: flex;
+}
+
+article {
+    text-align: left;
+    width: 100%;
+    margin: 20px;
+    border: 1px solid grey;
+}
+
+#articulo-1 {
+    background: white;
+}
+
+#mundo {
+    font-weight: bold;
+    font-size: 7px;
+    color: blue;
+}
+h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+h3 {
+    color: grey;
+    font-size: 8px;
+}
+h4 {
+    color: blue;
+    font-size: 10px;
+}
+
+#articulo-2 {
+    background: white;
+}
+#tecnologia {
+    font-weight: bold;
+    font-size: 7px;
+    color: green;
+}
+div {
+    background-color: grey;
+    width: 600px;
+    height: 225px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 0px;
+}
+
+

@@ -1,0 +1,27 @@
+/* line 3, ../../../Repositorio/LM2021/sass/scss/estilos.scss */
+body {
+  background-color: #c0c0c0;
+  margin: 2em;
+}
+
+/* line 7, ../../../Repositorio/LM2021/sass/scss/estilos.scss */
+#main {
+  width: 97%;
+}
+
+/* line 9, ../../../Repositorio/LM2021/sass/scss/estilos.scss */
+#main p, #main div {
+  font-size: 20px;
+}
+
+/* line 11, ../../../Repositorio/LM2021/sass/scss/estilos.scss */
+#main p a, #main div a {
+  text-decoration: none;
+}
+
+/* line 15, ../../../Repositorio/LM2021/sass/scss/estilos.scss */
+#main span {
+  font-size: 22px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
